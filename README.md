@@ -51,7 +51,10 @@
 
 3. SQlite3 - Interactions with the database.
 
+## Live Front-end link
+'https://enchanting-truffle-209f6e.netlify.app/'
 
+## Live Back-end link
 
 
 ### Authors Info
@@ -65,10 +68,8 @@
 > 'https://github.com/MercyChebet'
 
 
-## FrontEnd LINK 
-https://enchanting-truffle-209f6e.netlify.app/
 
-## BackEnd LINK
+
 
 ### License
 
