@@ -52,11 +52,7 @@
 3. SQlite3 - Interactions with the database.
 
 
-### License
 
-MIT License
-
-Copyright [2022][Group 7]
 
 ### Authors Info
 
@@ -67,3 +63,16 @@ Copyright [2022][Group 7]
 > 'https://github.com/Gift-koech'
 
 > 'https://github.com/MercyChebet'
+
+
+## FrontEnd LINK 
+https://enchanting-truffle-209f6e.netlify.app/
+
+## BackEnd LINK
+
+### License
+
+MIT License
+
+Copyright [2022][Group 7]
+
