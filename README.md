@@ -132,3 +132,47 @@ fetch("http://localhost:9292/test")
 [dbdiagram.io]: https://dbdiagram.io/
 [postman download]: https://www.postman.com/downloads/
 [network tab]: https://developer.chrome.com/docs/devtools/network/
+
+
+<!-- import React,{useState, useEffect}from 'react'
+import axios from 'axios'
+
+function Reviews() {
+  const [posts, setPosts] = useState({})
+  const [id, setId] = useState(1)
+  const [idFromButtonClick, setIdFromButtonClick] = useState(11)
+
+  const handleClick = () =>{
+    setIdFromButtonClick(id)
+  }
+
+  useEffect(()=>{
+    axios
+    .get(`http://localhost:9292/reviews/${idFromButtonClick}`) //}`)
+    .then(res => {
+      console.log(res)
+      setPosts(res.data)
+    })
+    .catch(err => {
+      console.log(err)
+    })
+  },[idFromButtonClick])
+  return (
+    <div className='reviews'>
+      <h2>Reviews</h2>
+      <input type="text" value={id} onChange={e => setId(e.target.value)} />
+      <button type="button" onClick={handleClick}>Fetch Review</button>
+      <div>{posts.name} --- {posts.user_review}</div>
+      {/* <ul>
+        {
+          posts.map(post => <li key={post.name} >{post.name} --- {post.user_review}</li>)
+        }
+      </ul> */}
+    </div>
+  )
+}
+
+export default Reviews -->
+
+
+
